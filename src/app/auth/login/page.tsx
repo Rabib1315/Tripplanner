@@ -32,13 +32,13 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center bg-gray-50 px-4">
+    <div className="w-full min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gray-50 px-4 py-8">
       <div className="w-full max-w-md space-y-8">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           Sign in to your account
         </h2>
 
-        <Card className="py-8 px-6 shadow-lg sm:rounded-xl mx-auto">
+        <Card className="py-8 px-6 shadow-lg sm:rounded-xl">
           <form className="space-y-6" onSubmit={handleSubmit}>
             {error && (
               <div className="rounded-md bg-red-50 p-4">
