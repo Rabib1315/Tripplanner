@@ -32,7 +32,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="w-full min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gray-50 px-4 py-8">
+    <div className="fixed inset-0 flex items-center justify-center -mt-[4rem] px-4">
       <div className="w-full max-w-md space-y-8">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           Sign in to your account
