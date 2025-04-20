@@ -32,9 +32,19 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center -mt-[4rem] px-4">
-      <div className="w-full max-w-md space-y-8">
-        <h2 className="text-center text-3xl font-bold text-gray-900">
+    <div 
+      style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        minHeight: 'calc(100vh - 4rem)',
+        width: '100%',
+        padding: '2rem 1rem',
+        background: 'rgb(249, 250, 251)'
+      }}
+    >
+      <div style={{ width: '100%', maxWidth: '28rem' }}>
+        <h2 className="text-center text-3xl font-bold text-gray-900 mb-8">
           Sign in to your account
         </h2>
 
